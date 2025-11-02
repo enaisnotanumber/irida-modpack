@@ -34,6 +34,7 @@ function new() {
 
     FlxG.mouse.useSystemCursor = FlxG.mouse.visible = false;
     FlxG.mouse.load(Assets.getBitmapData(Paths.image("cursor")), 0.75);
+    FlxG.save.data.iridaGreen = true;
 }
 
 function update() {
