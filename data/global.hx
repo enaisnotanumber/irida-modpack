@@ -24,6 +24,7 @@ function new() {
         Options.downscroll = false; // didnt test for downscroll ok
 
         FlxG.save.data.iridaForced = true;
+        FlxG.save.data.iridaGreen = true;
     }
 
     green.g = 1.0;
@@ -34,7 +35,6 @@ function new() {
 
     FlxG.mouse.useSystemCursor = FlxG.mouse.visible = false;
     FlxG.mouse.load(Assets.getBitmapData(Paths.image("cursor")), 0.75);
-    FlxG.save.data.iridaGreen = true;
 }
 
 function update() {
